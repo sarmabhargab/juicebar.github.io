@@ -1,0 +1,349 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!--FONTS-->
+     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+     <style>
+         nav .badge{
+             position: relative;
+             top: 20px;
+             right: 20px;
+         }
+         header{
+             background: url(images/orange.jpg);
+             background-size: cover;
+             background-position: center;
+             min-height: 1000px; 
+         }
+         @media screen and (max-width: 670px){
+             header{
+                 min-height: 500px;
+             }
+         }
+         .brand-logo{
+             font-family:  'Lobster', cursive;;
+         }
+         .brand-image{
+             height:60px !important;
+             width:60px !important;
+             min-width: 10px !important;
+             min-height: 10px !important;
+         }
+         #juice{
+            font-family: 'Indie Flower', cursive;
+            color: #cf000f;
+         }
+         #nav_{
+            font-family: 'Indie Flower', cursive;
+            font-size: 20px;
+         }
+         p{
+            font-family: 'Indie Flower', cursive;
+            color:red;
+            font:  15px;
+         }
+     </style>
+    <title>LCO's Juice Bar</title>
+    <link rel="icon" type="image/ico" href="images/l2.png" />
+</head>
+<body>
+  
+<!--header-->
+<header>
+    <nav class="nav-wrapper transparent">
+        <div class="container">
+                <a href=""><img class="responsive-img brand-image" src="images/l3.png" alt=""></a>
+            <a href="" class="brand-logo red-text darken-4">LCO's Juice Bar</a>
+            <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="" id="nav_">Home</a></li>
+                <li><a href="#product" id="nav_">Products</a></li>
+                <li><a href="#about" id="nav_">About</a></li>
+                <li><a href="#contact" id="nav_">Contact</a></li>
+                <li><a href="" class="btn-floating red transparent z-depth-0">
+                        <i class="material-icons">notifications</i>
+                    </a></li>
+                <li><span class="badge white-text red darken-2 new">3</span></li>
+            </ul>
+            <ul class="sidenav orange lighten-2" id="mobile-menu">
+                <li><div class="user-view">
+                        <div class="background red lighten-2">
+                            <img src="images/l2.nng" alt="">
+                        </div>
+                        <a href="#user"></a><img class="circle" src="images/l2.png"></a>
+                        <a href="#name"><span class="white-text name"><h4>LCO's Juice Bar</h4></span></a>
+                        <a href="#email"><span class="white-text email">+911234567890</span></a>
+                </div></li>
+                <li><a href="">Home</a></li>
+                <li><a href="#product">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+<!-- cards-->
+<div class="container">
+        <section class="container-section scrollspy" id="product">
+            <h4 class="red-text lighten-2">Products and Services</h4>
+                <div class="row">
+                        <div class="col s12 m4">
+                          <div class="card hoverable orange lighten-4 depth-1">
+                            <div class="card-image">
+                              <img src="images/p3.jpg" class="responsive-img">
+                              
+                              <a class="btn-floating halfway-fab waves-effect waves-light white pulse"><i class="fas fa-heart red-text"></i></a>
+                            </div>
+                            <div class="card-content">
+                                    <span class="card-title" id="juice">Graps</span>
+                                    <p>Delicious Juice. Have a glass of it then you will have one more!</p>
+                                    <h6 class="right-align red-text"><i class="fas fa-rupee-sign"></i><span>49</span></h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col s12 m4">
+                                <div class="card hoverable orange lighten-3 z-depth-1">
+                                  <div class="card-image">
+                                    <img src="images/p1.jpg" class="responsive-img">
+                                    <a class="btn-floating halfway-fab waves-effect waves-light white pulse"><i class="fas fa-heart red-text"></i></a>
+                                  </div>
+                                  <div class="card-content">
+                                        <span class="card-title" id="juice">Coconut</span>
+                                        <p>Delicious Juice. Have a glass of it then you will have one more!</p>
+                                        <h6 class="right-align red-text"><i class="fas fa-rupee-sign"></i><span>49</span></h6>
+
+                                  </div>
+                                </div>
+                              </div>
+                        <div class="col s12 m4">
+                                <div class="card hoverable orange lighten-2 z-depth-1">
+                                  <div class="card-image">
+                                    <img src="images/p2.jpg" class="responsive-img">
+                                    <a class="btn-floating halfway-fab waves-effect waves-light white pulse"><i class="fas fa-heart red-text"></i></a>
+                                  </div>
+                                  <div class="card-content">
+                                        <span class="card-title" id="juice">Banana</span>
+
+                                        <p>Delicious Juice. Have a glass of it then you will have one more!</p>
+                                        <h6 class="right-align red-text"><i class="fas fa-rupee-sign"></i><span>49</span></h6>
+
+                                  </div>
+                                </div>
+                            </div>
+                </div>
+
+                <div class="row">
+                        <div class="col s12 m4">
+                          <div class="card hoverable orange lighten-2 depth-1">
+                            <div class="card-image">
+                              <img src="images/p7.jpg" class="responsive-img">
+                              <a class="btn-floating halfway-fab waves-effect waves-light white pulse"><i class="fas fa-heart red-text"></i></a>
+                            </div>
+                            <div class="card-content">
+                                    <span class="card-title" id="juice"> Pineapple</span>
+                                    <p>Delicious Juice. Have a glass of it then you will have one more!</p>
+                              <h6 class="right-align red-text"><i class="fas fa-rupee-sign"></i><span>49</span></h6>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col s12 m4">
+                                <div class="card hoverable orange lighten-3 z-depth-1">
+                                  <div class="card-image">
+                                    <img src="images/parallax1.jpg" class="responsive-img">
+                                    <a class="btn-floating halfway-fab waves-effect waves-light white pulse"><i class="fas fa-heart red-text"></i></a>
+                                  </div>
+                                  <div class="card-content">
+                                        <span class="card-title" id="juice">Pomegranate</span>
+
+                                        <p>Delicious Juice. Have a glass of it then you will have one more!</p>
+                                        <h6 class="right-align red-text"><i class="fas fa-rupee-sign"></i><span>49</span></h6>
+
+                                  </div>
+                                </div>
+                              </div>
+                        <div class="col s12 m4">
+                                <div class="card hoverable orange lighten-4 z-depth-1">
+                                  <div class="card-image">
+                                    <img src="images/parallax2.jpg" class="responsive-img">
+                                    <a class="btn-floating halfway-fab waves-effect waves-light white pulse"><i class="fas fa-heart red-text"></i></a>
+                                  </div>
+                                  <div class="card-content">
+                                        <span class="card-title" id="juice">Lemon</span>
+
+                                        <p>Delicious Juice. Have a glass of it then you will have one more!</p>
+                                        <h6 class="right-align red-text"><i class="fas fa-rupee-sign"></i><span>49</span></h6>
+
+                                  </div>
+                                </div>
+                            </div>
+                </div>
+                
+        </section>
+
+</div>
+
+
+
+<!--parallax 1-->
+
+
+<div class="parallax-container">
+        <div class="parallax"><img src="images/p5.jpg" class="responsive-img"></div>
+</div>
+
+
+<div class="container" id="contact_us">
+    <!--CONTAC US-->
+<br>
+<div class="row">
+        <div class="col s1 l2"></div>
+    <div class="col s12 l6">
+    <section class="container-section scrollspy" id="contact">
+            
+
+                    <div class="row center-align">
+                                            <div class="row  ">
+                                                      <div class="card orange lighten-4 hoverable center">
+                                                        <span class="card-title red-text">Contact Us</span>
+                                                        <div class="card-content">
+                                                          <div class="row">
+                                                                <form class="" method="">
+
+                                                                        <div class="row">
+                                                                                    <div class="input-field col s6">
+                                                                                      <i class="material-icons prefix red-text lighten-2">account_circle</i>
+                                                                                      <input id="first_name" type="text" class="validate" name="firstname">
+                                                                                      <label for="first_name">First Name</label>
+                                                                                    </div>
+                                                                                    <div class="input-field col s6">
+                                                                                      <i class="material-icons prefix">account_circle</i>
+                                                                                      <input id="last_name" type="text" class="validate" name="lastname">
+                                                                                      <label for="last_name">Last Name</label>
+                                                                                    </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                                    <div class="input-field col s12">
+                                                                                      <i class="material-icons prefix red-text lighten-2">email</i>
+                                                                                      <input id="email" type="email" class="validate" name="useremail">
+                                                                                      <label for="email">Email</label>
+                                                                                    </div>
+                                                                        </div>
+        
+                                                                        <div class="row">
+                                                                                <div class="input-field col s12">
+                                                                                  <i class="material-icons prefix red-text lighten-2">phone</i>
+                                                                                  <input id="icon_telephone" type="tel" class="validate" name="phone">
+                                                                                  <label for="icon_telephone">Phone</label>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                                <div class="input-field col s12">
+                                                                                  <i class="material-icons prefix red-text lighten-2">send</i>
+                                                                                  <input id="messege" type="text"  name="useremail">
+                                                                                  <label for="mesege">Messege</label>
+                                                                                </div>
+                                                                        </div>
+                                                                    
+                                                                      
+                                                      
+                                                                    </form>
+
+                                                          </div>
+                                              
+                                                        </div>
+                                                      </div>
+                                        </div>
+                                    
+                    </div>
+        
+
+    </section>
+    </div>
+    <div class="col s1 l2"></div>
+</div>
+</div>
+
+
+<!--parallax 2-->
+
+
+<div class="parallax-container">
+        <div class="parallax"><img src="images/p5.jpg" class="responsive-img"></div>
+</div>
+
+<!--About Us-->
+
+<div class="container">
+    <section class="container-section scrollspy" id="about">
+            <div class="row">
+                    <div class="col s1 l2"></div>
+                    <div class="col s12 6">
+                        <h4 class="red-text lighten-1">About</h4>
+                        <p class="red-text lighten-2" style="font-size: 15px;">We are making organic juice and trying it to  provide it at a very less price.
+                            Support us and contact us.We will be very happy to serve you.
+                        </p>
+                    </div>
+                    <div class="col s1 l2"></div>
+                </div>
+    </section>
+</div>
+
+<footer class="page-footer orange darken-4">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 l6">
+                <h5>About Me</h5>
+                <h6 style="font-size: 15px">Web designer and developer, like to play with colors </h6>
+            </div>
+            <div class="col s12 l4 offset-l2">
+                <h5>Connect</h5>
+                <ul>
+                    <a href=""><i class="fas fa-envelope white-text"></i></a>
+                    <a href=""><i class="fab fa-linkedin white-text"></i></a>
+                    <a href=""><i class="fab fa-instagram white-text"></i></a>
+                    <a href=""><i class="fab fa-facebook-square white-text"></i></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-copyright red darken-2">
+            <div class="container center-align">
+                    <h7 style="color:white; ">&copy;LCO's Juice Bar</h7>
+            </div>
+    </div>
+</footer>
+
+
+
+<!--footer-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+        $('.parallax').parallax();
+        $('.scrollspy').scrollSpy();
+     });
+      
+</script>
+</body>
+</html>
+
+<!--https://learnyst.s3.amazonaws.com/assets/schools/2410/resources/images/logo_lco_t17sd_5fnsua_9xtf2b.png-->
